@@ -16,7 +16,7 @@
                   <Font size="20.0" />
                </font>
             </Button>
-            <Text fill="#05c0ff" fontSmoothingType="LCD" layoutX="368.0" layoutY="70.0" strokeLineCap="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" text="Accueil" textAlignment="CENTER">
+            <Text fill="#03d311" fontSmoothingType="LCD" layoutX="368.0" layoutY="70.0" strokeLineCap="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" text="Accueil" textAlignment="CENTER">
                <font>
                   <Font name="Abyssinica SIL" size="50.0" />
                </font>
@@ -24,7 +24,7 @@
                   <Cursor fx:constant="DEFAULT" />
                </cursor>
             </Text>
-            <RadioButton id="BtnRadioMagazine" contentDisplay="TOP" layoutX="129.0" layoutY="266.0" mnemonicParsing="false" text="Magazine : " textAlignment="RIGHT" textFill="#05c0ff">
+            <RadioButton id="BtnRadioMagazine" contentDisplay="TOP" layoutX="129.0" layoutY="356.0" mnemonicParsing="false" text="Magazine : " textAlignment="RIGHT" textFill="#03d311">
                <font>
                   <Font name="Abyssinica SIL" size="20.0" />
                </font>
@@ -32,17 +32,17 @@
                   <ToggleGroup fx:id="BtnRadio" />
                </toggleGroup>
             </RadioButton>
-            <Text layoutX="280.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apprend tout en informant. Rien de tel qu'un magazine pour t'aider à progresser" wrappingWidth="565.46875">
+            <Text layoutX="273.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apprend tout en informant. Rien de tel qu'un magazine pour t'aider à progresser" wrappingWidth="565.46875">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <RadioButton id="BtnRadioAtelier" layoutX="129.0" layoutY="353.0" mnemonicParsing="false" text="Atelier :" textFill="#05c0ff" toggleGroup="$BtnRadio">
+            <RadioButton id="BtnRadioAtelier" layoutX="129.0" layoutY="266.0" mnemonicParsing="false" text="Atelier :" textFill="#03d311" toggleGroup="$BtnRadio">
                <font>
                   <Font name="Abyssinica SIL" size="20.0" />
                </font>
             </RadioButton>
-            <Text layoutX="280.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Des exercises pour pouvoir apprendre les règles de base de l'anglais." wrappingWidth="539.71484375">
+            <Text layoutX="280.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Des leçons suivis d'exercises vous sont proposés pour un apprentissage des plus performant." wrappingWidth="539.71484375">
                <font>
                   <Font size="20.0" />
                </font>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Pane layoutX="450.0" layoutY="179.0" prefHeight="600.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text layoutX="256.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sélectionnez votre niveau actuel :">
+               <font>
+                  <Font name="Abyssinica SIL" size="25.0" />
+               </font>
+            </Text>
+            <Button layoutX="742.0" layoutY="512.0" mnemonicParsing="false" text="Suivant">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Pane layoutX="14.0" layoutY="181.0" prefHeight="288.0" prefWidth="283.0" style="-fx-border-color: black;">
+               <children>
+                  <Text layoutX="95.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Débutant" textAlignment="CENTER">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <RadioButton layoutX="87.0" layoutY="247.0" mnemonicParsing="false" text="choisir">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="BtnRadioAtelier" />
+                     </toggleGroup>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </RadioButton>
+                  <Text layoutX="38.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apprendre les bases de la langue tel que l'alphabet ou encore les chiffres" textAlignment="CENTER" wrappingWidth="200.537109375">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutX="309.0" layoutY="181.0" prefHeight="288.0" prefWidth="283.0" style="-fx-border-color: black;">
+               <children>
+                  <Text layoutX="74.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Intermédiaire" textAlignment="CENTER">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <RadioButton layoutX="124.0" layoutY="247.0" mnemonicParsing="false" toggleGroup="$BtnRadioAtelier">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </RadioButton>
+                  <Text layoutX="43.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tu as déjà des petites bases mais tu n'es pas encore à l'aise avec cette langue ! Alors choisis cette section !" textAlignment="CENTER" wrappingWidth="183.9638671875">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutX="601.0" layoutY="181.0" prefHeight="288.0" prefWidth="283.0" style="-fx-border-color: black;">
+               <children>
+                  <Text layoutX="88.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirmé" textAlignment="CENTER">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <RadioButton layoutX="124.0" layoutY="247.0" mnemonicParsing="false" toggleGroup="$BtnRadioAtelier">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </RadioButton>
+                  <Text layoutX="45.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Les exercices les plus poussés sont faits ici ! SI tu te sens fort n'hésite pas choisis cette section ! " textAlignment="CENTER" wrappingWidth="193.255859375">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Text fill="#03d311" layoutX="368.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Atelier">
+         <font>
+            <Font name="Abyssinica SIL" size="50.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
