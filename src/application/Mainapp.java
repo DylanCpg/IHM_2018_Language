@@ -1,22 +1,17 @@
 package application;
 	
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
-import javafx.stage.Stage;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
-
+import javafx.stage.Stage;
 
 public class Mainapp extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
 			FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(Mainapp.class.getResource("view/Atelier.fxml"));
+            loader.setLocation(Mainapp.class.getResource("view/Accueil.fxml"));
             AnchorPane rootLayout = loader.load();
             
 			Scene scene = new Scene(rootLayout,900,600);
@@ -31,7 +26,7 @@ public class Mainapp extends Application {
 					
 					@Override
 					public void handle(ActionEvent event) { // récuper la valeur 
-						System.out.println("Clicke !!!");
+						loader.setLocation(Mainapp.class.getResource("view/ApplicationExoNombre.fxml"));
 						
 					}
 				});

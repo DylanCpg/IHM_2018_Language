@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.ChangeScreen">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fill="#03d311" layoutX="331.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Magazine">
+               <font>
+                  <Font size="50.0" />
+               </font>
+            </Text>
+            <Button layoutX="30.0" layoutY="27.0" mnemonicParsing="false" onAction="#LienAtelier" prefHeight="45.0" prefWidth="100.0" text="Retour" textFill="#05d311">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
