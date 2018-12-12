@@ -49,7 +49,7 @@
                         <Font size="17.0" />
                      </font>
                   </Text>
-                  <Button layoutX="81.0" layoutY="236.0" mnemonicParsing="false" text="On y va !" textFill="#03d311">
+                  <Button layoutX="81.0" layoutY="236.0" mnemonicParsing="false" onAction="#LienExoIntermediaire" text="On y va !" textFill="#03d311">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -68,24 +68,25 @@
                         <Font size="17.0" />
                      </font>
                   </Text>
-                  <Button layoutX="43.0" layoutY="236.0" mnemonicParsing="false" text="Entrainons nous !" textFill="#03d311">
+                  <Button layoutX="43.0" layoutY="236.0" mnemonicParsing="false" onAction="#LienExoConfirme" text="Entrainons nous !" textFill="#03d311">
                      <font>
                         <Font size="20.0" />
                      </font>
                   </Button>
                </children>
             </Pane>
-            <Button cancelButton="true" layoutX="35.0" layoutY="30.0" mnemonicParsing="false" onAction="#RetourArriereAccueil" text="Retour" textFill="#03d311">
+            <Button cancelButton="true" layoutX="35.0" layoutY="24.0" mnemonicParsing="false" onAction="#RetourArriereAccueil" text="Retour" textFill="#03d311">
                <font>
                   <Font size="20.0" />
                </font>
             </Button>
+            <Button layoutX="517.0" layoutY="18.0" mnemonicParsing="false" onAction="#Help" text="?" textFill="#03d311" />
+            <Text fill="#03d311" layoutX="391.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Atelier">
+               <font>
+                  <Font name="Abyssinica SIL" size="40.0" />
+               </font>
+            </Text>
          </children>
       </Pane>
-      <Text fill="#03d311" layoutX="368.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Atelier">
-         <font>
-            <Font name="Abyssinica SIL" size="50.0" />
-         </font>
-      </Text>
    </children>
 </AnchorPane>

@@ -13,7 +13,7 @@
          <children>
             <Pane layoutX="40.0" layoutY="190.0" prefHeight="300.0" prefWidth="400.0" style="-fx-border-color: black;">
                <children>
-                  <Text layoutX="26.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Des leçons suivis d'exercises vous sont proposés pour un apprentissage des plus performant." textAlignment="CENTER" wrappingWidth="347.71484375">
+                  <Text layoutX="34.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Des leçons suivis d'exercices vous sont proposés pour un apprentissage des plus performant" textAlignment="CENTER" wrappingWidth="331.46875">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -32,7 +32,7 @@
             </Pane>
             <Pane layoutX="473.0" layoutY="190.0" prefHeight="300.0" prefWidth="400.0" style="-fx-border-color: black;">
                <children>
-                  <Text layoutX="34.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apprend tout en informant. Rien de tel qu'un magazine pour t'aider à progresser" textAlignment="CENTER" wrappingWidth="331.46875">
+                  <Text layoutX="34.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apprend tout en informant. Rien de tel qu'un magazine pour vous aider à progresser" textAlignment="CENTER" wrappingWidth="331.46875">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -62,11 +62,6 @@
                   <Cursor fx:constant="DEFAULT" />
                </cursor>
             </Text>
-            <Button layoutX="335.0" layoutY="533.0" mnemonicParsing="false" onAction="#Quitter" prefHeight="38.0" prefWidth="231.0" text="Quitter l'application" textFill="#05d311">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </Button>
          </children>
       </Pane>
    </children>
