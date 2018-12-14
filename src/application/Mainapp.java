@@ -26,7 +26,7 @@ public class Mainapp extends Application {
 					
 					@Override
 					public void handle(ActionEvent event) { // récuper la valeur 
-						loader.setLocation(Mainapp.class.getResource("view/ApplicationExoNombre.fxml"));
+						loader.setLocation(Mainapp.class.getResource("view/AtelierFacileNombreExo.fxml"));
 						
 					}
 				});

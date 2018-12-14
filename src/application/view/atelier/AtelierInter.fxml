@@ -82,6 +82,12 @@
                   <Font name="Abyssinica SIL" size="20.0" />
                </font>
             </Text>
+
+            <CheckBox id="Yolow" layoutX="109.0" layoutY="469.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="625.0" text="Passer directement au exercices sans passer par la leçon">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </CheckBox>
          </children>
       </Pane>
    </children>

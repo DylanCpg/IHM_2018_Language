@@ -30,7 +30,7 @@
                         <Font size="17.0" />
                      </font>
                   </Text>
-                  <Button id="Button" layoutX="75.0" layoutY="236.0" mnemonicParsing="false" onAction="#LienExercisesFacile" text="C'est parti !" textFill="#03d311">
+                  <Button id="Button" layoutX="75.0" layoutY="236.0" mnemonicParsing="false" onAction="#LienAtelierFacile" text="C'est parti !" textFill="#03d311">
                      <font>
                         <Font size="20.0" />
                      </font>
