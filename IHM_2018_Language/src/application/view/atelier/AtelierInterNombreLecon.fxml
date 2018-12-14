@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.ChangeScreen">
+   <children>
+      <Text fill="#03d311" layoutX="253.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Leçon 1:  Les nombres II" textAlignment="CENTER" wrappingWidth="420.61328125">
+         <font>
+            <Font name="DejaVuMathTeXGyre-Regular" size="40.0" />
+         </font>
+      </Text>
+      <Pane layoutX="32.0" layoutY="139.0" prefHeight="191.0" prefWidth="815.0" style="-fx-border-color: black;">
+         <children>
+            <Text layoutX="50.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="II) Les nombres composés: " underline="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="133.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pour les nombres composés, on met les nombres se terminant par zéro plus  un chiffre de 1-10." textAlignment="CENTER" wrappingWidth="501.083984375">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="118.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ex: twenty-one, thirty-two, forty-three, fifty-four" textAlignment="CENTER" wrappingWidth="501.083984375">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Button layoutX="15.0" layoutY="20.0" mnemonicParsing="false" onAction="#RetourExoIntermediaire" text="Retour" textFill="#03d311">
+         <font>
+            <Font name="DejaVuMathTeXGyre-Regular" size="20.0" />
+         </font>
+      </Button>
+      <Pane layoutX="33.0" layoutY="346.0" prefHeight="139.0" prefWidth="815.0" style="-fx-border-color: black;">
+         <children>
+            <Text layoutX="50.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I) Les nombres ordonaux:" underline="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Text layoutX="133.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1st = first ">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <Text layoutX="253.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2nd = second">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <Text layoutX="425.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3rd= third">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <Text layoutX="561.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4st = fourth">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <Text layoutX="713.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5st = fifth">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <Button layoutX="327.0" layoutY="548.0" mnemonicParsing="false" onAction="#LienExoConfirmeApplication" text="Passer à l'application " textFill="#03d311">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="770.0" layoutY="20.0" mnemonicParsing="false" onAction="#AfficherLexique" text="Lexique" textFill="#03d311">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

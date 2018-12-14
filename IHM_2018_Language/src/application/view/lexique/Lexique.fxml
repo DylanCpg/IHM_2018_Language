@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.lexique.LexiqueController">
+   <children>
+      <SplitPane dividerPositions="0.20066889632107024" focusTraversable="false" orientation="VERTICAL" prefHeight="600.0" prefWidth="900.0">
+        <items>
+          <AnchorPane disable="true" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Text fill="#03d311" layoutX="331.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vocabulaire">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="205.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rechercher la définition de mot fréquent directement depuis l'application !" />
+               </children>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </AnchorPane>
+          <AnchorPane focusTraversable="true" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <TableView fx:id="tableMot" prefHeight="485.0" prefWidth="898.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                      <columnResizePolicy>
+                          <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                      </columnResizePolicy>
+                      <columns>
+                        <TableColumn fx:id="colMot" prefWidth="450.0" resizable="false" text="Mot" />
+                        <TableColumn fx:id="colDef" prefWidth="450.0" resizable="false" text="Traduction" />
+                      </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </items>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </SplitPane>
+   </children>
+</AnchorPane>

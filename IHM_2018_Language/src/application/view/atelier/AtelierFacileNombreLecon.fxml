@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.ChangeScreen">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fill="#03d311" layoutX="230.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Leçon 1: Les nombres">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Text>
+            <Text layoutX="85.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1 : one ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="85.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2 : two ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="86.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3 : three ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="86.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4 : four ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="85.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5 : five ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="85.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6 : six ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="85.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7 : seven ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="85.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8 : eight">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="85.0" layoutY="455.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9 : nine">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="400.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11 : eleven">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="400.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12 : twelve">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="400.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="13 : thriteen">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="400.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="14 : fourteen">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="400.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15 : fifteen">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="400.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16 : sixteen">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="400.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="17 : seventeen">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="400.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="18 : eighteen">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="80.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10 : ten">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="400.0" layoutY="455.0" strokeType="OUTSIDE" strokeWidth="0.0" text="19 : nineteen">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="400.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="20 : twenty ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="715.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="30 : thirty">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="715.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="40 : forty ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="715.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50 : fifty ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="715.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="60 : sixty">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="715.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70 : seventy">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="715.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="80 : eighty ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="715.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="90 : ninety">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="673.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="100 : one hundred ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="673.0" layoutY="455.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1000 : one thousand">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Button layoutX="354.0" layoutY="548.0" mnemonicParsing="false" onAction="#LienApplicationExoNombre" text="Passer à l'application" textFill="#03d311">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="770.0" layoutY="20.0" mnemonicParsing="false" onAction="#AfficherLexique" text="Lexique" textFill="#03d311">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="15.0" layoutY="20.0" mnemonicParsing="false" onAction="#RetourExo" text="Retour" textFill="#03d311">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

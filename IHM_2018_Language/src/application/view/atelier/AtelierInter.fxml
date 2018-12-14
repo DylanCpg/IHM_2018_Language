@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.ChangeScreen">
+   <children>
+      <Pane layoutX="250.0" layoutY="108.0" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: F1F1F1;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fill="#03d311" layoutX="212.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercices: niveau intermédiaire" textAlignment="CENTER" wrappingWidth="502.8359375">
+               <font>
+                  <Font name="Abyssinica SIL" size="40.0" />
+               </font>
+            </Text>
+            <Text fontSmoothingType="LCD" layoutX="174.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Les exercises niveau faciles ne sont pas fais pour toi ? Tente de faire les suivant alors ! !Bon courage et bon apprentissage à toi !" textAlignment="CENTER" wrappingWidth="578.69140625">
+               <font>
+                  <Font name="Abyssinica SIL" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="276.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Les nombres II" textAlignment="CENTER">
+               <font>
+                  <Font name="Abyssinica SIL" size="20.0" />
+               </font>
+            </Text>
+            <Button layoutX="770.0" layoutY="20.0" mnemonicParsing="false" onAction="#AfficherLexique" text="Lexique" textFill="#03d311">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <RadioButton layoutX="145.0" layoutY="250.0" mnemonicParsing="false" selected="true" text="Leçon 1 :">
+               <toggleGroup>
+                  <ToggleGroup fx:id="BoutonRadioLecon" />
+               </toggleGroup>
+               <font>
+                  <Font name="Abyssinica SIL" size="20.0" />
+               </font>
+            </RadioButton>
+            <Text layoutX="266.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="395.7294921875">
+               <font>
+                  <Font name="Abyssinica SIL" size="20.0" />
+               </font></Text>
+            <RadioButton layoutX="145.0" layoutY="319.0" mnemonicParsing="false" text="Leçon 2 : " toggleGroup="$BoutonRadioLecon">
+               <font>
+                  <Font name="Abyssinica SIL" size="20.0" />
+               </font></RadioButton>
+            <Text layoutX="288.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Abyssinica SIL" size="20.0" />
+               </font>
+            </Text>
+            <RadioButton layoutX="145.0" layoutY="393.0" mnemonicParsing="false" text="Leçon 3 :" toggleGroup="$BoutonRadioLecon">
+               <font>
+                  <Font name="Abyssinica SIL" size="20.0" />
+               </font></RadioButton>
+            <Text layoutX="288.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Button layoutX="383.0" layoutY="548.0" mnemonicParsing="false" onAction="#LienExoIntermediaireLeçon" text="Apprendre" textFill="#03d311">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="15.0" layoutY="20.0" mnemonicParsing="false" onAction="#RetourArriereAtelier" text="Retour" textFill="#03d311">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Text layoutX="276.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="276.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quelques verbes irréguliers II" textAlignment="CENTER">
+               <font>
+                  <Font name="Abyssinica SIL" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="276.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Les mots de base pour parler l'anglais II" textAlignment="CENTER">
+               <font>
+                  <Font name="Abyssinica SIL" size="20.0" />
+               </font>
+            </Text>
+
+            <CheckBox id="Yolow" layoutX="109.0" layoutY="469.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="625.0" text="Passer directement au exercices sans passer par la leçon">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </CheckBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

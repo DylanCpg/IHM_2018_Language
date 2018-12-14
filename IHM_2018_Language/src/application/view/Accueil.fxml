@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.ChangeScreen">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane layoutX="40.0" layoutY="190.0" prefHeight="300.0" prefWidth="400.0" style="-fx-border-color: black;">
+               <children>
+                  <Text layoutX="34.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Des leçons suivis d'exercices vous sont proposés pour un apprentissage des plus performant" textAlignment="CENTER" wrappingWidth="331.46875">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#03d311" layoutX="144.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Atelier :">
+                     <font>
+                        <Font name="Abyssinica SIL" size="30.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="133.0" layoutY="237.0" mnemonicParsing="false" onAction="#LienAtelier" text="Apprendre" textAlignment="CENTER" textFill="#03d311">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane layoutX="473.0" layoutY="190.0" prefHeight="300.0" prefWidth="400.0" style="-fx-border-color: black;">
+               <children>
+                  <Text layoutX="34.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apprend tout en informant. Rien de tel qu'un magazine pour vous aider à progresser" textAlignment="CENTER" wrappingWidth="331.46875">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#03d311" layoutX="119.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Magazine :">
+                     <font>
+                        <Font name="Abyssinica SIL" size="30.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="132.0" layoutY="232.0" mnemonicParsing="false" onAction="#LienMagazine" text="Consulter" textFill="#03d311">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Text layoutX="58.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ici tu peux apprendre de façon intelligente. Des exercices qui ont prouvés leur efficacité partout dans le monde. " textAlignment="CENTER" wrappingWidth="783.28515625">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="#03d311" fontSmoothingType="LCD" layoutX="384.0" layoutY="48.0" strokeLineCap="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" text="Accueil" textAlignment="CENTER">
+               <font>
+                  <Font name="Abyssinica SIL" size="40.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
