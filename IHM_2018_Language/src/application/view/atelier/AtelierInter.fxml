@@ -11,11 +11,6 @@
    <children>
       <Pane layoutX="250.0" layoutY="108.0" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: F1F1F1;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Text fill="#03d311" layoutX="212.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercices: niveau intermédiaire" textAlignment="CENTER" wrappingWidth="502.8359375">
-               <font>
-                  <Font name="Abyssinica SIL" size="40.0" />
-               </font>
-            </Text>
             <Text fontSmoothingType="LCD" layoutX="174.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Les exercises niveau faciles ne sont pas fais pour toi ? Tente de faire les suivant alors ! !Bon courage et bon apprentissage à toi !" textAlignment="CENTER" wrappingWidth="578.69140625">
                <font>
                   <Font name="Abyssinica SIL" size="20.0" />
@@ -26,11 +21,6 @@
                   <Font name="Abyssinica SIL" size="20.0" />
                </font>
             </Text>
-            <Button layoutX="770.0" layoutY="20.0" mnemonicParsing="false" onAction="#AfficherLexique" text="Lexique" textFill="#03d311">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </Button>
             <RadioButton layoutX="145.0" layoutY="250.0" mnemonicParsing="false" selected="true" text="Leçon 1 :">
                <toggleGroup>
                   <ToggleGroup fx:id="BoutonRadioLecon" />
@@ -62,11 +52,6 @@
                   <Font size="20.0" />
                </font>
             </Button>
-            <Button layoutX="15.0" layoutY="20.0" mnemonicParsing="false" onAction="#RetourArriereAtelier" text="Retour" textFill="#03d311">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </Button>
             <Text layoutX="276.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0">
                <font>
                   <Font size="20.0" />
@@ -83,11 +68,30 @@
                </font>
             </Text>
 
-            <CheckBox id="Yolow" layoutX="109.0" layoutY="469.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="625.0" text="Passer directement au exercices sans passer par la leçon">
+            <CheckBox id="Yolow" layoutX="70.0" layoutY="458.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="561.0" text="Passer directement à l'applicationsans lire la leçon">
                <font>
                   <Font size="20.0" />
                </font>
             </CheckBox>
+            <Pane prefHeight="88.0" prefWidth="900.0" style="-fx-background-color: #32CD32;">
+               <children>
+                  <Button layoutX="14.0" layoutY="25.0" mnemonicParsing="false" onAction="#RetourArriereAtelier" text="Retour">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="779.0" layoutY="18.0" mnemonicParsing="false" onAction="#AfficherLexique" text="Lexique">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Text layoutX="165.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercices: niveau intermédiaire" textAlignment="CENTER" wrappingWidth="594.8359375">
+                     <font>
+                        <Font name="Abyssinica SIL" size="40.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
          </children>
       </Pane>
    </children>

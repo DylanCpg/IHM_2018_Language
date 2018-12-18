@@ -13,14 +13,14 @@
    <children>
       <Pane layoutX="450.0" layoutY="179.0" prefHeight="600.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Text layoutX="256.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sélectionnez votre niveau actuel :">
+            <Text layoutX="255.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sélectionnez votre niveau actuel :">
                <font>
-                  <Font name="Abyssinica SIL" size="25.0" />
+                  <Font size="25.0" />
                </font>
             </Text>
             <Pane layoutX="14.0" layoutY="181.0" prefHeight="288.0" prefWidth="283.0" style="-fx-border-color: black;">
                <children>
-                  <Text fill="#03d311" layoutX="95.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Débutant :" textAlignment="CENTER">
+                  <Text fill="LIMEGREEN" layoutX="95.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Débutant :" textAlignment="CENTER">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -30,7 +30,7 @@
                         <Font size="17.0" />
                      </font>
                   </Text>
-                  <Button id="Button" layoutX="75.0" layoutY="236.0" mnemonicParsing="false" onAction="#LienAtelierFacile" text="C'est parti !" textFill="#03d311">
+                  <Button id="Button" layoutX="75.0" layoutY="236.0" mnemonicParsing="false" onAction="#LienAtelierFacile" text="C'est parti !">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -39,7 +39,7 @@
             </Pane>
             <Pane layoutX="309.0" layoutY="181.0" prefHeight="288.0" prefWidth="283.0" style="-fx-border-color: black;">
                <children>
-                  <Text fill="#03d311" layoutX="74.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Intermédiaire :" textAlignment="CENTER">
+                  <Text fill="LIMEGREEN" layoutX="74.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Intermédiaire :" textAlignment="CENTER">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -49,7 +49,7 @@
                         <Font size="17.0" />
                      </font>
                   </Text>
-                  <Button layoutX="81.0" layoutY="236.0" mnemonicParsing="false" onAction="#LienExoIntermediaire" text="On y va !" textFill="#03d311">
+                  <Button layoutX="81.0" layoutY="236.0" mnemonicParsing="false" onAction="#LienExoIntermediaire" text="On y va !">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -58,7 +58,7 @@
             </Pane>
             <Pane layoutX="601.0" layoutY="181.0" prefHeight="288.0" prefWidth="283.0" style="-fx-border-color: black;">
                <children>
-                  <Text fill="#03d311" layoutX="88.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirmé :" textAlignment="CENTER">
+                  <Text fill="LIMEGREEN" layoutX="88.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirmé :" textAlignment="CENTER">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -68,24 +68,28 @@
                         <Font size="17.0" />
                      </font>
                   </Text>
-                  <Button layoutX="43.0" layoutY="236.0" mnemonicParsing="false" onAction="#LienExoConfirme" text="Entrainons nous !" textFill="#03d311">
+                  <Button layoutX="43.0" layoutY="236.0" mnemonicParsing="false" onAction="#LienExoConfirme" text="Entrainons nous !">
                      <font>
                         <Font size="20.0" />
                      </font>
                   </Button>
                </children>
             </Pane>
-            <Button cancelButton="true" layoutX="14.0" layoutY="12.0" mnemonicParsing="false" onAction="#RetourArriereAccueil" text="Retour" textFill="#03d311">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </Button>
-            <Button layoutX="523.0" layoutY="10.0" mnemonicParsing="false" onAction="#Help" text="?" textFill="#03d311" />
-            <Text fill="#03d311" layoutX="391.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Atelier">
-               <font>
-                  <Font name="Abyssinica SIL" size="40.0" />
-               </font>
-            </Text>
+            <Pane prefHeight="88.0" prefWidth="900.0" style="-fx-background-color: #32CD32;">
+               <children>
+                  <Button cancelButton="true" layoutX="20.0" layoutY="25.0" mnemonicParsing="false" onAction="#RetourArriereAccueil" text="Retour">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Text layoutX="390.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Atelier">
+                     <font>
+                        <Font name="KacstDecorative" size="40.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="521.0" layoutY="47.0" mnemonicParsing="false" onAction="#Help" text="?" />
+               </children>
+            </Pane>
          </children>
       </Pane>
    </children>

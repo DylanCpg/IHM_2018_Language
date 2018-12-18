@@ -18,12 +18,12 @@
                         <Font size="20.0" />
                      </font>
                   </Text>
-                  <Text fill="#03d311" layoutX="144.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Atelier :">
+                  <Text fill="LIMEGREEN" layoutX="144.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Atelier :">
                      <font>
                         <Font name="Abyssinica SIL" size="30.0" />
                      </font>
                   </Text>
-                  <Button layoutX="133.0" layoutY="237.0" mnemonicParsing="false" onAction="#LienAtelier" text="Apprendre" textAlignment="CENTER" textFill="#03d311">
+                  <Button layoutX="133.0" layoutY="237.0" mnemonicParsing="false" onAction="#LienAtelier" text="Apprendre" textAlignment="CENTER">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -37,31 +37,35 @@
                         <Font size="20.0" />
                      </font>
                   </Text>
-                  <Text fill="#03d311" layoutX="119.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Magazine :">
+                  <Text fill="LIMEGREEN" layoutX="119.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Magazine :">
                      <font>
                         <Font name="Abyssinica SIL" size="30.0" />
                      </font>
                   </Text>
-                  <Button layoutX="132.0" layoutY="232.0" mnemonicParsing="false" onAction="#LienMagazine" text="Consulter" textFill="#03d311">
+                  <Button layoutX="132.0" layoutY="232.0" mnemonicParsing="false" onAction="#LienMagazine" text="Consulter">
                      <font>
                         <Font size="20.0" />
                      </font>
                   </Button>
                </children>
             </Pane>
-            <Text layoutX="58.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ici tu peux apprendre de façon intelligente. Des exercices qui ont prouvés leur efficacité partout dans le monde. " textAlignment="CENTER" wrappingWidth="783.28515625">
+            <Text layoutX="58.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ici tu peux apprendre de façon intelligente. Des exercices qui ont prouvés leur efficacité partout dans le monde. " textAlignment="CENTER" wrappingWidth="783.28515625">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text fill="#03d311" fontSmoothingType="LCD" layoutX="384.0" layoutY="48.0" strokeLineCap="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" text="Accueil" textAlignment="CENTER">
-               <font>
-                  <Font name="Abyssinica SIL" size="40.0" />
-               </font>
-               <cursor>
-                  <Cursor fx:constant="DEFAULT" />
-               </cursor>
-            </Text>
+            <Pane prefHeight="88.0" prefWidth="900.0" style="-fx-background-color: #32CD32;">
+               <children>
+                  <Text fontSmoothingType="LCD" layoutX="378.0" layoutY="54.0" strokeLineCap="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" text="Accueil" textAlignment="CENTER">
+                     <font>
+                        <Font name="KacstDecorative" size="40.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                  </Text>
+               </children>
+            </Pane>
          </children>
       </Pane>
    </children>

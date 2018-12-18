@@ -17,32 +17,40 @@
    <children>
       <Pane layoutX="250.0" layoutY="108.0" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: F1F1F1;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Text fill="#03d311" layoutX="196.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercices: niveau confirmé">
-               <font>
-                  <Font name="Abyssinica SIL" size="40.0" />
-               </font>
-            </Text>
-            <Text fontSmoothingType="LCD" layoutX="175.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tu es un vrai champion! C'est la dernière étape de l'apprentissage! Bon courage !" textAlignment="CENTER" wrappingWidth="578.69140625">
+            <Pane prefHeight="100.0" prefWidth="900.0" style="-fx-background-color: #32CD32;">
+               <children>
+                  <Text layoutX="183.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercices: niveau confirmé">
+                     <font>
+                        <Font name="KacstDecorative" size="40.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="20.0" layoutY="25.0" mnemonicParsing="false" onAction="#RetourArriereAtelier" text="Retour">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="779.0" layoutY="27.0" mnemonicParsing="false" onAction="#AfficherLexique" text="Lexique">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children></Pane>
+            <Text fontSmoothingType="LCD" layoutX="163.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tu es un vrai champion! C'est la dernière étape de l'apprentissage! Bon courage !" textAlignment="CENTER" wrappingWidth="650.69140625">
                <font>
                   <Font name="Abyssinica SIL" size="20.0" />
                </font>
             </Text>
-            <Button layoutX="770.0" layoutY="20.0" mnemonicParsing="false" onAction="#AfficherLexique" text="Lexique" textFill="#03d311">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </Button>
             <RadioButton fx:id="L1" layoutX="145.0" layoutY="220.0" mnemonicParsing="false" selected="true" text="Leçon 1 :">
                <toggleGroup>
                   <ToggleGroup fx:id="BoutonRadioLecon" />
                </toggleGroup>
                <font>
-                  <Font name="Abyssinica SIL" size="20.0" />
+                  <Font size="20.0" />
                </font>
             </RadioButton>
             <RadioButton fx:id="L2" layoutX="145.0" layoutY="295.0" mnemonicParsing="false" text="Leçon 2 : " toggleGroup="$BoutonRadioLecon">
                <font>
-                  <Font name="Abyssinica SIL" size="20.0" />
+                  <Font size="20.0" />
                </font></RadioButton>
             <Text layoutX="288.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER">
                <font>
@@ -51,29 +59,24 @@
             </Text>
             <RadioButton fx:id="L3" layoutX="145.0" layoutY="370.0" mnemonicParsing="false" text="Leçon 3 :" toggleGroup="$BoutonRadioLecon">
                <font>
-                  <Font name="Abyssinica SIL" size="20.0" />
+                  <Font size="20.0" />
                </font></RadioButton>
             <Text layoutX="288.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" />
             <Text layoutX="276.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Les mots de base pour parler l'anglais III" textAlignment="CENTER" wrappingWidth="425.7294921875">
                <font>
                   <Font size="20.0" />
                </font></Text>
-            <Button id="Button1" layoutX="383.0" layoutY="531.0" mnemonicParsing="false" onAction="#LienExoConfirmeLecon" text="Apprendre" textFill="#03d311">
+            <Button id="Button1" layoutX="383.0" layoutY="531.0" mnemonicParsing="false" onAction="#LienExoConfirmeLecon" text="Apprendre">
                <font>
                   <Font size="20.0" />
                </font>
             </Button>
-            <Text layoutX="288.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Les nombres III" textAlignment="CENTER">
+            <Text layoutX="280.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Les nombres III" textAlignment="CENTER">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Button layoutX="15.0" layoutY="20.0" mnemonicParsing="false" onAction="#RetourArriereAtelier" text="Retour" textFill="#03d311">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </Button>
-            <CheckBox fx:id="directExo" layoutX="124.0" layoutY="491.0" mnemonicParsing="false" text="Passer directement aux exercices sans passer par la leçon">
+            <CheckBox fx:id="directExo" layoutX="52.0" layoutY="437.0" mnemonicParsing="false" text="Passer directement aux exercices sans passer par la leçon">
                <font>
                   <Font size="20.0" />
                </font>
