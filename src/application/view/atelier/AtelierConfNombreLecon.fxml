@@ -10,32 +10,53 @@
    <children>
       <Pane layoutX="119.0" layoutY="100.0" prefHeight="600.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Text fill="#03d311" layoutX="258.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Leçon 1: les chiffres/nombres III" textAlignment="CENTER" wrappingWidth="384.515625">
-               <font>
-                  <Font size="40.0" />
-               </font>
-            </Text>
-            <Button layoutX="27.0" layoutY="18.0" mnemonicParsing="false" onAction="#RetourExoConfirme" prefHeight="38.0" prefWidth="97.0" text="Retour" textFill="#03d311">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </Button>
-            <Pane layoutX="53.0" layoutY="160.0" prefHeight="211.0" prefWidth="812.0" style="-fx-border-color: black;" />
-            <Text layoutX="76.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Les décimaux:" underline="true">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </Text>
-            <Text layoutX="124.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Les décimaux sont précédés d'un point.">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </Text>
-            <Text layoutX="124.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ils se prononcent et se lisent chiffre après chiffre.">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </Text>
+            <Pane prefHeight="88.0" prefWidth="900.0" style="-fx-background-color: #32CD32;">
+               <children>
+                  <Text layoutX="159.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Leçon 1: les nombres III" textAlignment="CENTER" wrappingWidth="582.177734375">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="20.0" layoutY="25.0" mnemonicParsing="false" onAction="#RetourExoConfirme" prefHeight="38.0" prefWidth="97.0" text="Retour">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="779.0" layoutY="25.0" mnemonicParsing="false" onAction="#AfficherLexique" text="Lexique">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane layoutX="53.0" layoutY="142.0" prefHeight="211.0" prefWidth="812.0" style="-fx-border-color: black;">
+               <children>
+                  <Text layoutX="20.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Les décimaux:" underline="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="59.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Les décimaux sont précédés d'un point.">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="59.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ils se prononcent et se lisent chiffre après chiffre.">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="59.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ex: 1.754 = one point seven five four." wrappingWidth="627.96484375">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="59.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5,353.5 = five thousand three hundred and fifty-three point five.">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+               </children></Pane>
             <Pane layoutX="53.0" layoutY="393.0" prefHeight="107.0" prefWidth="812.0" style="-fx-border-color: black;">
                <children>
                   <Text layoutX="238.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1/3 = one third">
@@ -48,7 +69,7 @@
                         <Font size="20.0" />
                      </font>
                   </Text>
-                  <Text layoutX="29.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fraction:" underline="true">
+                  <Text layoutX="20.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fraction:" underline="true">
                      <font>
                         <Font size="20.0" />
                      </font>
@@ -65,22 +86,7 @@
                   </Text>
                </children>
             </Pane>
-            <Text layoutX="124.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ex: 1.754 = one point seven five four." wrappingWidth="627.96484375">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </Text>
-            <Text layoutX="160.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5,353.5 = five thousand three hundred and fifty-three point five.">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </Text>
-            <Button layoutX="317.0" layoutY="532.0" mnemonicParsing="false" onAction="#LienExoConfirmeApplication" text="Passer à l'application" textFill="#03d311">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </Button>
-            <Button layoutX="779.0" layoutY="18.0" mnemonicParsing="false" onAction="#AfficherLexique" text="Lexique" textFill="#03d311">
+            <Button layoutX="317.0" layoutY="532.0" mnemonicParsing="false" onAction="#LienExoConfirmeApplication" text="Passer à l'application">
                <font>
                   <Font size="20.0" />
                </font>

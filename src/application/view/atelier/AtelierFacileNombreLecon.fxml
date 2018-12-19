@@ -10,11 +10,6 @@
    <children>
       <Pane prefHeight="600.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Text fill="#03d311" layoutX="230.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Leçon 1: Les nombres">
-               <font>
-                  <Font size="40.0" />
-               </font>
-            </Text>
             <Text layoutX="85.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1 : one ">
                <font>
                   <Font size="20.0" />
@@ -160,21 +155,30 @@
                   <Font size="20.0" />
                </font>
             </Text>
-            <Button layoutX="354.0" layoutY="548.0" mnemonicParsing="false" onAction="#LienApplicationExoNombre" text="Passer à l'application" textFill="#03d311">
+            <Button layoutX="330.0" layoutY="548.0" mnemonicParsing="false" onAction="#LienApplicationExoNombre" text="Passer à l'application">
                <font>
                   <Font size="20.0" />
                </font>
             </Button>
-            <Button layoutX="776.0" layoutY="18.0" mnemonicParsing="false" onAction="#AfficherLexique" text="Lexique" textFill="#03d311">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </Button>
-            <Button layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#RetourExo" text="Retour" textFill="#03d311">
-               <font>
-                  <Font size="20.0" />
-               </font>
-            </Button>
+            <Pane prefHeight="88.0" prefWidth="900.0" style="-fx-background-color: #32CD32;">
+               <children>
+                  <Button layoutX="762.0" layoutY="24.0" mnemonicParsing="false" onAction="#AfficherLexique" text="Lexique">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="29.0" layoutY="25.0" mnemonicParsing="false" onAction="#RetourExo" text="Retour">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Text layoutX="230.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Leçon 1: Les nombres">
+                     <font>
+                        <Font name="KacstDecorative" size="40.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
          </children>
       </Pane>
    </children>

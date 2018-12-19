@@ -16,30 +16,27 @@ public class MagazineController implements Initializable {
 	
 	public void retourAccueil(ActionEvent event) throws IOException {
 		Parent tableViewParent= FXMLLoader.load(getClass().getResource("../Accueil.fxml"));
-		Scene tableViewScene =new  Scene(tableViewParent);
+		Scene tableViewScene = new Scene(tableViewParent);
 		
 		Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-		window.setTitle("Accueil");
 		window.setScene(tableViewScene);
 		window.show();
 	}
 	
 	public void magDebCarnivore(ActionEvent event) throws IOException {
 		Parent tableViewParent= FXMLLoader.load(getClass().getResource("MagazineDebCarnivore.fxml"));
-		Scene tableViewScene =new  Scene(tableViewParent);
+		Scene tableViewScene = new Scene(tableViewParent);
 		
 		Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-		// keep the title
 		window.setScene(tableViewScene);
 		window.show();
 	}
 	
 	public void lienListMag(ActionEvent event) throws IOException {
 		Parent tableViewParent= FXMLLoader.load(getClass().getResource("Magazine.fxml"));
-		Scene tableViewScene =new  Scene(tableViewParent);
+		Scene tableViewScene = new Scene(tableViewParent);
 		
 		Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-		// keep the title
 		window.setScene(tableViewScene);
 		window.show();
 	}
