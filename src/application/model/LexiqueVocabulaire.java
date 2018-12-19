@@ -41,10 +41,10 @@ public class LexiqueVocabulaire {
 				String[] split = br.readLine().split(sep);
 				if(split.length != 2){
 					System.err.println("Failed to load the line " + i + " of the csv file \"" + path.toExternalForm() + "\"");
-					continue; // fixme? proper exception ?
-					// un message d'erreur et le saut de l'indice me semble être un comportement correcte:
-					//  -> Cette méthode a été faite à la rache pour avoir quelquechose de fonctionnel
-					//  -> Si plusieurs erreurs sont présente dans un fichier, les traites toutes ensemble
+					continue; // fixme? exception to throw
+					// 1) Parseur temporaire pour montrer la possibilité de chargé des données dynamiquement.
+					// 2) Un throw arreterais le parse à la première erreur plutot que pour chqua ligna ayant un problème
+					// 3) la correspondance id/line préente l'interêt d'être intuitive
 				}
 				result.add(new LexiqueMot(i, split[0], split[1]));
 			}
