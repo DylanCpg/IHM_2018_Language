@@ -8,22 +8,7 @@
 
 <AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.ChangeScreen">
    <children>
-      <Text fill="#03d311" layoutX="227.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercises: Les nombres II" textAlignment="CENTER">
-         <font>
-            <Font size="40.0" />
-         </font>
-      </Text>
-      <Button layoutX="23.0" layoutY="19.0" mnemonicParsing="false" onAction="#RetourArriereAccueil" text="Retour Accueil" textFill="#03d311">
-         <font>
-            <Font size="20.0" />
-         </font>
-      </Button>
-      <Button layoutX="779.0" layoutY="19.0" mnemonicParsing="false" onAction="#AfficherLexique" text="Lexique" textFill="#03d311">
-         <font>
-            <Font size="20.0" />
-         </font>
-      </Button>
-      <Pane layoutX="46.0" layoutY="358.0" prefHeight="181.0" prefWidth="832.0" style="-fx-border-color: black;">
+      <Pane layoutX="42.0" layoutY="347.0" prefHeight="181.0" prefWidth="818.0" style="-fx-border-color: black;">
          <children>
             <Text layoutX="581.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5st:">
                <font>
@@ -65,7 +50,7 @@
       <TextField layoutX="144.0" layoutY="241.0" />
       <TextField layoutX="144.0" layoutY="278.0" />
       <TextField layoutX="396.0" layoutY="205.0" />
-      <Pane layoutX="44.0" layoutY="95.0" prefHeight="244.0" prefWidth="832.0" style="-fx-border-color: black;">
+      <Pane layoutX="42.0" layoutY="110.0" prefHeight="222.0" prefWidth="818.0" style="-fx-border-color: black;">
          <children>
             <Text layoutX="34.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Les nombres composés:" underline="true">
                <font>
@@ -84,7 +69,7 @@
             <Font size="20.0" />
          </font>
       </Text>
-      <Button layoutX="384.0" layoutY="548.0" mnemonicParsing="false" text="Correction" textFill="#03d311">
+      <Button layoutX="384.0" layoutY="548.0" mnemonicParsing="false" text="Correction">
          <font>
             <Font size="20.0" />
          </font>
@@ -149,5 +134,24 @@
       <TextField layoutX="662.0" layoutY="205.0" />
       <TextField layoutX="662.0" layoutY="242.0" />
       <TextField layoutX="662.0" layoutY="279.0" />
+      <Pane layoutX="1.0" prefHeight="88.0" prefWidth="900.0" style="-fx-background-color: #32CD32;">
+         <children>
+            <Text layoutX="228.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercises: Les nombres II" textAlignment="CENTER">
+               <font>
+                  <Font name="KacstDecorative" size="40.0" />
+               </font>
+            </Text>
+            <Button layoutX="14.0" layoutY="25.0" mnemonicParsing="false" onAction="#RetourArriereAccueil" text="Retour Accueil">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="779.0" layoutY="25.0" mnemonicParsing="false" onAction="#AfficherLexique" text="Lexique">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
    </children>
 </AnchorPane>

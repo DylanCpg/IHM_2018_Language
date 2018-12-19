@@ -1,10 +1,8 @@
 package application.view.experimental;
 
-import javafx.beans.property.Property;
-import javafx.beans.property.SimpleObjectProperty;
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.property.StringProperty;
-import javafx.event.ActionEvent;
+import javafx.beans.property.*;
+import javafx.event.Event;
+import javafx.event.EventType;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Label;
@@ -24,21 +22,14 @@ public class FieldExercise extends HBox {
     @FXML
     private Text resultFaux;
     private StringProperty excepted;
-    private Property<State> state;
-
-
-    public enum State{
-        Unknown,
-        Right,
-        Wrong;
-    }
-
+    private BooleanProperty valid;
+    
     
     public FieldExercise(){
-        FXMLLoader fxmlLoader = new FXMLLoader(this.getClass().getResource("field_exercice.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(this.getClass().getResource("field_exercise.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
-        this.state = new SimpleObjectProperty<>(State.Unknown);
+        this.valid = new SimpleBooleanProperty(false);
         this.excepted = new SimpleStringProperty("");
         
         try {
@@ -48,15 +39,17 @@ public class FieldExercise extends HBox {
         }
 
         this.field.textProperty().addListener(e -> {
-            this.state.setValue(State.Unknown);
+            this.valid.set(this.field.getText().equals(this.excepted.get()));
         });
+        
+        this.valid.addListener(e -> System.out.println("State of the field changed => " + e.toString()));
     }
-
-    public State getState() {
-        return this.state.getValue();
+    
+    public boolean getValid() {
+        return valid.get();
     }
-    public Property<State> stateProperty() {
-        return state;
+    public BooleanProperty validProperty() {
+        return valid;
     }
 
     public String getQuestion(){
@@ -88,17 +81,14 @@ public class FieldExercise extends HBox {
     public StringProperty exceptedProperty(){
         return this.excepted;
     }
-
-    // fixme proper event
-    public void TestAnswer(ActionEvent event){
-        if(this.excepted.get().equals(this.field.getText())){
-            this.resultOk.setOpacity(1);
-            this.resultFaux.setOpacity(0);
-            state.setValue(State.Right);
-        }else{
-            this.resultOk.setOpacity(0);
-            this.resultFaux.setOpacity(1);
-            state.setValue(State.Wrong);
+    
+    static class AnswerCheckEvent extends Event {
+        static final EventType<AnswerCheckEvent> ANSWER_CHECK  = new EventType<>(Event.ANY, "ANSWER_CHECK");
+        
+        private int nbField = 0, fieldValid = 0;
+        
+        AnswerCheckEvent(){
+            super(ANSWER_CHECK);
         }
     }
 }
