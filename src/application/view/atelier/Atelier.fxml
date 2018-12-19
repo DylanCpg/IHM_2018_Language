@@ -25,7 +25,7 @@
                         <Font size="20.0" />
                      </font>
                   </Text>
-                  <Text layoutX="48.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vous n'avez jamais pratiqué la langue ! Cette rubrique est faites pour vous !" textAlignment="CENTER" wrappingWidth="200.537109375">
+                  <Text layoutX="47.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vous n'avez jamais pratiqué la langue ! Cette rubrique est faites pour vous !" textAlignment="CENTER" wrappingWidth="200.537109375">
                      <font>
                         <Font size="17.0" />
                      </font>
@@ -44,7 +44,7 @@
                         <Font size="20.0" />
                      </font>
                   </Text>
-                  <Text layoutX="41.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vous pratiquez la langue à l'école mais vous ne vous sentez pas à l'aise avec ? Alors n'hésitez pas et progressez en choisissant ce niveau !" textAlignment="CENTER" wrappingWidth="200.537109375">
+                  <Text layoutX="41.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vous pratiquez la langue à l'école mais vous ne vous sentez pas à l'aise avec ? Alors n'hésitez pas et progressez en choisissant ce niveau !" textAlignment="CENTER" wrappingWidth="200.537109375">
                      <font>
                         <Font size="17.0" />
                      </font>
@@ -63,7 +63,7 @@
                         <Font size="20.0" />
                      </font>
                   </Text>
-                  <Text layoutX="45.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Les exercices les plus poussés sont faits ici ! SI tu te sens fort n'hésite pas choisis cette section ! " textAlignment="CENTER" wrappingWidth="200.537109375">
+                  <Text layoutX="44.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Les exercices les plus poussés sont faits ici ! SI vous vous sentez  fort n'hésite pas choisissez cette section ! " textAlignment="CENTER" wrappingWidth="200.537109375">
                      <font>
                         <Font size="17.0" />
                      </font>
