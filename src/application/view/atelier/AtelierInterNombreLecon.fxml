@@ -35,28 +35,33 @@
                   <Font size="20.0" />
                </font>
             </Text>
+            <Text layoutX="105.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1st = first ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="228.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2nd = second">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="395.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3rd= third">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="532.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4st = fourth">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="672.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5st = fifth">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
          </children>
       </Pane>
-      <Text layoutX="133.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1st = first ">
-         <font>
-            <Font size="20.0" />
-         </font></Text>
-      <Text layoutX="253.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2nd = second">
-         <font>
-            <Font size="20.0" />
-         </font></Text>
-      <Text layoutX="425.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3rd= third">
-         <font>
-            <Font size="20.0" />
-         </font></Text>
-      <Text layoutX="561.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4st = fourth">
-         <font>
-            <Font size="20.0" />
-         </font></Text>
-      <Text layoutX="713.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5st = fifth">
-         <font>
-            <Font size="20.0" />
-         </font></Text>
       <Button layoutX="302.0" layoutY="548.0" mnemonicParsing="false" onAction="#LienExoConfirmeApplication" text="Passer à l'application ">
          <font>
             <Font size="20.0" />

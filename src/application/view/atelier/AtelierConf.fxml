@@ -35,7 +35,7 @@
                      </font>
                   </Button>
                </children></Pane>
-            <Text fontSmoothingType="LCD" layoutX="163.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tu es un vrai champion! C'est la dernière étape de l'apprentissage! Bon courage !" textAlignment="CENTER" wrappingWidth="650.69140625">
+            <Text fontSmoothingType="LCD" layoutX="163.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vous etes un vrai champion! C'est la dernière étape de l'apprentissage! Bon courage !" textAlignment="CENTER" wrappingWidth="650.69140625">
                <font>
                   <Font name="Abyssinica SIL" size="20.0" />
                </font>
