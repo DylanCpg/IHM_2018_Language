@@ -34,7 +34,7 @@ public class LexiqueController implements Initializable {
 		this.colDef.setCellValueFactory(new PropertyValueFactory<LexiqueMot, String>("trad"));
 		
 		try {
-			this.voca = LexiqueVocabulaire.fromCSV(LexiqueVocabulaire.class.getResource("./voca/adverbe.csv"));
+			this.voca = LexiqueVocabulaire.fromCSV(LexiqueVocabulaire.class.getResource("voca/adverbe.csv"));
 		}catch (IOException err){
 			throw new RuntimeException(err);
 		}
