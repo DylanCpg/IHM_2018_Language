@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import application.Mainapp;
 import javafx.event.ActionEvent;
+import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -32,84 +32,33 @@ public class ChangeScreen implements Initializable {
 
 	
 	public void LienAtelier(ActionEvent event) throws IOException{
-		
-		Parent tableViewParent=FXMLLoader.load(ChangeScreen.class.getResource("atelier/Atelier.fxml"));
-		Scene tableViewScene =new  Scene(tableViewParent);
-		Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-		window.setTitle("OuiLangue");
-		
-		window.setScene(tableViewScene);
-		window.show();
+		ChangeScreen.setScene(event, ChangeScreen.class.getResource("atelier/Atelier.fxml"));
 	}
 	
 	public void LienMagazine(ActionEvent event) throws IOException{
-		
-		Parent tableViewParent=FXMLLoader.load(ChangeScreen.class.getResource("magazine/Magazine.fxml"));
-		Scene tableViewScene =new  Scene(tableViewParent);
-		
-		Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-
-		
-		window.setScene(tableViewScene);
-		window.show();
+		ChangeScreen.setScene(event, ChangeScreen.class.getResource("magazine/Magazine.fxml"));
 	}
 	
 	public void RetourArriereAccueil(ActionEvent event) throws IOException{
-		
-		Parent tableViewParent=FXMLLoader.load(ChangeScreen.class.getResource("Accueil.fxml"));
-		Scene tableViewScene =new  Scene(tableViewParent);
-		
-		Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-		
-		window.setScene(tableViewScene);
-		window.show();
+		ChangeScreen.setScene(event, ChangeScreen.class.getResource("Accueil.fxml"));
 	}
 	public void LienAtelierFacile(ActionEvent event) throws IOException{
-		
-		Parent tableViewParent=FXMLLoader.load(ChangeScreen.class.getResource("atelier/AtelierFacile.fxml"));
-		Scene tableViewScene =new  Scene(tableViewParent);
-		
-		Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-
-		
-		window.setScene(tableViewScene);
-		window.show();
+		ChangeScreen.setScene(event, ChangeScreen.class.getResource("atelier/AtelierFacile.fxml"));
 	}
 	
 	public void LienAtelierLeconF(ActionEvent event) throws IOException{
-		Parent tableViewParent=FXMLLoader.load(ChangeScreen.class.getResource("atelier/AtelierFacileNombreLecon.fxml"));
-		Scene tableViewScene =new  Scene(tableViewParent);
-		
-		Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-
-		
-		window.setScene(tableViewScene);
-		window.show();
+		ChangeScreen.setScene(event, ChangeScreen.class.getResource("atelier/AtelierFacileNombreLecon.fxml"));
 	}
 	
 	public void LienApplicationExoNombre(ActionEvent event) throws IOException{
-		
-		Parent tableViewParent=FXMLLoader.load(ChangeScreen.class.getResource("atelier/AtelierFacileNombreExo.fxml"));
-		Scene tableViewScene =new  Scene(tableViewParent);
-		
-		Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-
-		
-		window.setScene(tableViewScene);
-		window.show();
+		ChangeScreen.setScene(event, ChangeScreen.class.getResource("atelier/AtelierFacileNombreExo.fxml"));
 	}
 	
 	public void RetourArriereAtelier(ActionEvent event) throws IOException{
-		
-		Parent tableViewParent=FXMLLoader.load(ChangeScreen.class.getResource("atelier/Atelier.fxml"));
-		Scene tableViewScene =new  Scene(tableViewParent);
-		
-		Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-		window.setTitle("Atelier");
-		window.setScene(tableViewScene);
-		window.show();
+		ChangeScreen.setScene(event, ChangeScreen.class.getResource("atelier/Atelier.fxml"));
 	}
 	
+	// in progress => proper subclass to handle this
 	public void Correction(ActionEvent event) throws IOException{
 		if(rep1.getText().equals("one")) {
 
@@ -163,25 +112,11 @@ public class ChangeScreen implements Initializable {
 	}
 	
 	public void LienExoIntermediaire(ActionEvent event) throws IOException{
-		
-		Parent tableViewParent=FXMLLoader.load(ChangeScreen.class.getResource("atelier/AtelierInter.fxml"));
-		Scene tableViewScene =new  Scene(tableViewParent);
-		
-		Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-		window.setScene(tableViewScene);
-		window.show();
+		ChangeScreen.setScene(event, ChangeScreen.class.getResource("atelier/AtelierInter.fxml"));
 	}
 	
 	public void RetourExo(ActionEvent event) throws IOException{
-		
-		Parent tableViewParent=FXMLLoader.load(ChangeScreen.class.getResource("atelier/AtelierFacile.fxml"));
-		Scene tableViewScene =new  Scene(tableViewParent);
-		
-		Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-		window.setTitle("Exercises");
-		
-		window.setScene(tableViewScene);
-		window.show();
+		ChangeScreen.setScene(event, ChangeScreen.class.getResource("atelier/AtelierFacile.fxml"));
 	}
 	public void Help(ActionEvent event) throws IOException{
 		
@@ -212,59 +147,34 @@ public class ChangeScreen implements Initializable {
 	}
 	
 	public void RetourExoIntermediaire(ActionEvent event) throws IOException{
-		
-		Parent tableViewParent=FXMLLoader.load(ChangeScreen.class.getResource("atelier/AtelierInter.fxml"));
-		Scene tableViewScene =new  Scene(tableViewParent);
-		
-		Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-	
-		
-		window.setScene(tableViewScene);
-		window.show();
+		ChangeScreen.setScene(event, ChangeScreen.class.getResource("atelier/AtelierInter.fxml"));
 	}
 	public void LienExoApplicationIntermdiaire(ActionEvent event) throws IOException{
-		
-		Parent tableViewParent=FXMLLoader.load(ChangeScreen.class.getResource("atelier/AtelierInterNombreExo.fxml"));
-		Scene tableViewScene =new  Scene(tableViewParent);
-		
-		Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-
-		
-		window.setScene(tableViewScene);
-		window.show();
+		ChangeScreen.setScene(event, ChangeScreen.class.getResource("atelier/AtelierInterNombreExo.fxml"));
 	}
 	public void LienExoConfirme(ActionEvent event) throws IOException{
-		
-		Parent tableViewParent=FXMLLoader.load(ChangeScreen.class.getResource("atelier/AtelierConf.fxml"));
-		Scene tableViewScene =new  Scene(tableViewParent);
-		
-		Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-
-		
-		window.setScene(tableViewScene);
-		window.show();
+		ChangeScreen.setScene(event, ChangeScreen.class.getResource("atelier/AtelierConf.fxml"));
 	}
 	public void LienExoConfirmeApplication(ActionEvent event) throws IOException{
-		
-		Parent tableViewParent=FXMLLoader.load(ChangeScreen.class.getResource("atelier/AtelierConfNombreExo.fxml"));
-		Scene tableViewScene =new  Scene(tableViewParent);
-		
-		Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-		
-		
-		window.setScene(tableViewScene);
-		window.show();
+		ChangeScreen.setScene(event, ChangeScreen.class.getResource("atelier/AtelierConfExo.fxml"));
 	}
 	public void RetourExoConfirme(ActionEvent event) throws IOException{
+		ChangeScreen.setScene(event, ChangeScreen.class.getResource("atelier/AtelierConf.fxml"));
+	}
+	
+	/**
+	 * Replace the scene where a given event took place.
+	 * The source MUST me a node
+	 */
+	public static void setScene(Event evt, URL pathFXML) throws IOException{
+		setScene((Stage) ((Node)evt.getSource()).getScene().getWindow(), pathFXML);
+	}
+	public static void setScene(Stage stage, URL pathFxml) throws IOException{
+		Parent root = FXMLLoader.load(pathFxml);
+		Scene scene = new Scene(root);
 		
-		Parent tableViewParent=FXMLLoader.load(ChangeScreen.class.getResource("atelier/AtelierConf.fxml"));
-		Scene tableViewScene =new  Scene(tableViewParent);
-		
-		Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-		
-		
-		window.setScene(tableViewScene);
-		window.show();
+		stage.setScene(scene);
+		stage.show();
 	}
 	
 	@Override

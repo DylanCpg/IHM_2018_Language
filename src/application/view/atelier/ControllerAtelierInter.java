@@ -2,7 +2,7 @@ package application.view.atelier;
 
 import java.net.URL;
 
-public class ControllerAtelierInter extends ControllerChoixLecon {
+public class ControllerAtelierInter extends ControllerAtelierLecon {
 	@Override
 	protected URL determinerPageExo(int numLecon, boolean skipLecon) {
 		switch (numLecon){
@@ -14,7 +14,7 @@ public class ControllerAtelierInter extends ControllerChoixLecon {
 				}
 			}
 			default:{
-				throw new UnsupportedOperationException("Seul les lecon 2 et 3 sont implémenté");
+				throw new UnsupportedOperationException("La leçon/Application demandé n'est pas disponible");
 			}
 		}
 	}

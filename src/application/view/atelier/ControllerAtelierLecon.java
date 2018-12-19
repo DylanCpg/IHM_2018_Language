@@ -3,19 +3,14 @@ package application.view.atelier;
 import application.view.ChangeScreen;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.RadioButton;
-import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public abstract class ControllerChoixLecon extends ChangeScreen {
+public abstract class ControllerAtelierLecon extends ChangeScreen {
 	@FXML
 	public RadioButton L1;
 	@FXML
@@ -36,14 +31,7 @@ public abstract class ControllerChoixLecon extends ChangeScreen {
 			lecon = 3;
 		}
 		
-		URL page = determinerPageExo(lecon, directExo.isSelected());
-		
-		Parent tableViewParent= FXMLLoader.load(page);
-		Scene tableViewScene = new Scene(tableViewParent);
-		
-		Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-		window.setScene(tableViewScene);
-		window.show();
+		ChangeScreen.setScene(event, determinerPageExo(lecon, directExo.isSelected()));
 	}
 	
 	abstract protected URL determinerPageExo(int numLecon, boolean skipLecon) /* throws UnsupportedOperationException */;
