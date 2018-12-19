@@ -156,7 +156,7 @@ public class ChangeScreen implements Initializable {
 		ChangeScreen.setScene(event, ChangeScreen.class.getResource("atelier/AtelierConf.fxml"));
 	}
 	public void LienExoConfirmeApplication(ActionEvent event) throws IOException{
-		ChangeScreen.setScene(event, ChangeScreen.class.getResource("atelier/AtelierConfExo.fxml"));
+		ChangeScreen.setScene(event, ChangeScreen.class.getResource("atelier/AtelierConfNombreExo.fxml"));
 	}
 	public void RetourExoConfirme(ActionEvent event) throws IOException{
 		ChangeScreen.setScene(event, ChangeScreen.class.getResource("atelier/AtelierConf.fxml"));
